@@ -1,0 +1,28 @@
+login-authentication-system/
+│
+├── backend/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   └── authController.js
+│   ├── models/
+│   │   └── User.js
+│   ├── routes/
+│   │   └── authRoutes.js
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   ├── server.js
+│   └── .env
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── Login.js
+│   │   ├── Signup.js
+│   │   └── Dashboard.js
+│   ├── package.json
+│   └── .env
+│
+└── README.md
